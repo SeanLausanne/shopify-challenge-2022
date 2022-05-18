@@ -41,7 +41,7 @@ node index.js
 
    The /inventory/cleardb endpoint will clear everything in the database so that we are ready to start a new test.
 
-   ![Screen Shot 2022-05-18 at 17.55.52](https://github.com/SeanLausanne/shopify-challenge-2022/screenshots/Screen Shot 2022-05-18 at 17.55.52.png)
+   ![1](https://github.com/SeanLausanne/shopify-challenge-2022/screenshots/1.png)
 
 !(/Users/xiaoling/Desktop/untitled folder 2/Screen Shot 2022-05-18 at 17.55.52.png)
 
