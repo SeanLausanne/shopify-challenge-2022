@@ -1,0 +1,17 @@
+html
+    body
+        table.table.table-striped
+            tr
+                th Name
+                th Brand
+                th Quantity
+                th Price
+                th Deletion Comments
+
+            each item in items
+                tr
+                    td= item.name
+                    td= item.brand
+                    td= item.quantity
+                    td= item.price
+                    td= item.deletionComments

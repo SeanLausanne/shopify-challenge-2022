@@ -4,6 +4,7 @@ const inventory = require('./routes/inventory');
 
 app = express();
 app.use(express.json());
+app.set('view engine', 'pug');
 
 mongoose.connect('mongodb+srv://shopify:shopify@shopify-challenge.f91pc.mongodb.net/test')
     .then(() => console.log('Connected to MongoDB'))
