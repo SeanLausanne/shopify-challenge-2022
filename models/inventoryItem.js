@@ -5,6 +5,10 @@ const inventoryItemSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    quantity: {
+        type: Number,
+        default: 1
+    },
     brand: {
         type: String,
         default: ""
@@ -16,6 +20,14 @@ const inventoryItemSchema = mongoose.Schema({
     price: {
         type: Number,
         required: true
+    },
+    deleted: {
+        type: Boolean,
+        default: false
+    },
+    deletionComments: {
+        type: String,
+        default: ""
     }
 });
 

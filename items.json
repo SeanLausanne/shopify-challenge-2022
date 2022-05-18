@@ -1,0 +1,28 @@
+{
+  "inventoryItems": [
+    {
+      "name": "iphone",
+      "brand": "apple",
+      "price": 1000,
+      "quantity": 100
+    },
+    {
+      "name": "ipad",
+      "brand": "apple",
+      "price": 800,
+      "quantity": 100
+    },
+    {
+      "name": "camera",
+      "brand": "canon",
+      "price": 3000,
+      "quantity": 50
+    },
+    {
+      "name": "monitor",
+      "brand": "lg",
+      "price": 500,
+      "quantity": 30
+    }
+  ]
+}

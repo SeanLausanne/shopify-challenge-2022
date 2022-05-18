@@ -19,6 +19,7 @@
   "homepage": "https://github.com/SeanLausanne/shopify-challenge-2022#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "fs": "^0.0.1-security",
     "mongoose": "^6.3.3"
   }
 }

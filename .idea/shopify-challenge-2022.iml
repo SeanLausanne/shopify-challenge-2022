@@ -10,5 +10,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mongo-demo" />
     <orderEntry type="module" module-name="express-demo" />
+    <orderEntry type="module" module-name="async-demo" />
+    <orderEntry type="module" module-name="A3" />
   </component>
 </module>
