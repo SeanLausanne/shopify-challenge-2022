@@ -41,7 +41,7 @@ node index.js
 
    The /inventory/cleardb endpoint will clear everything in the database so that we are ready to start a new test.
 
-   ![1](https://github.com/SeanLausanne/shopify-challenge-2022/screenshots/1.png)
+   ![1](./screenshots/1.png)
 
 !(/Users/xiaoling/Desktop/untitled folder 2/Screen Shot 2022-05-18 at 17.55.52.png)
 
@@ -51,7 +51,46 @@ node index.js
 
    The /inventory/view/all endpoint will show all the items in inventory. Now we have nothing in the database so it's an empty table
 
-   ![Screen Shot 2022-05-18 at 17.56.07](/Users/xiaoling/Desktop/untitled folder 2/Screen Shot 2022-05-18 at 17.56.07.png)
+   ![2](./screenshots/2.png)
+
+3. Add item:
+
+   In real world, user should send a HTTP POST request with the item being the request body. Because reviewers may not be able to use Postman, I pre-coded 4 item objects in items.json. 
+
+   Reviewers can add the items by go to:
+
+   ![items](./screenshots/items.png)
 
    
 
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/add/1
+
+   This will add the first item.
+
+   ![3](./screenshots/3.png)
+
+   Reviewers can add the other items by going to:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/add/2
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/add/3
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/add/4
+
+   (only 1, 2, 3, 4 will work, but they can be added multiple times)
+
+   Now reviewers can go to:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/all
+
+   All 4 items are added to the inventory:
+
+   ![7](./screenshots/7.png)
+
+4. View single instance:
+
+   Reviewers can view a single instance by going to /inventory/view/itemName, for example:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/iphone
+
+   ![8](./screenshots/8.png)
