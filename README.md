@@ -59,7 +59,7 @@ node index.js
 
    Reviewers can add the items by go to:
 
-   ![items](./screenshots/items.png)
+   <img src="./screenshots/items.png" alt="items" style="zoom:50%;" />
 
    
 
@@ -87,10 +87,98 @@ node index.js
 
    ![7](./screenshots/7.png)
 
-4. View single instance:
+4. View a single item:
 
    Reviewers can view a single instance by going to /inventory/view/itemName, for example:
 
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/iphone
 
    ![8](./screenshots/8.png)
+
+5. Update an item:
+
+   Reviewers can update an item by going to /inventory/itemName?quantity=500. Again in real world, this should be a HTTP PUT request with the request body being the updated item. To allow reviewers to test in browser, I can only put the updated value in the url as query parameter. Only "quantity" is supported now. Given more time, I will improve it in the future.
+
+   Go to:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/update/iphone@quantity=300
+
+   ![9](./screenshots/9.png)
+
+   Then go to:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/all
+
+   The quantity of iphone has been updated
+
+   ![10](./screenshots/10.png)
+
+6. Delete an item:
+
+   Reviewers can go to /inventory/delete/itemName to delete an item. Again in real world, this should be a HTTP DELETE request. To allow reviewers to test in browser, I can only put the deletion comments in the url as query parameter. For example:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/camera&comments=soldout
+
+   ![11](./screenshots/11.png)
+
+   Another example:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/iphone&comments=recall
+
+   ![12](./screenshots/12.png)
+
+   Reviewers can see the deleted items on:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/deleted
+
+   ![13](./screenshots/13.png)
+
+   And these items are deleted from the inventory list:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/all
+
+   ![133](./screenshots/133.png)
+
+7. Undelete an item:
+
+   Reviewers can undelete an item by going to /inventory/undelete/itemName, for example:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/undelete/iphone
+
+   ![14](./screenshots/14.png)
+
+   Now go to 
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/all
+
+   camera has been restored![15](./screenshots/15.png)
+
+   Go to the deleted list
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/deleted
+
+   ![16](./screenshots/16.png)
+
+   Camera has been removed from the deleted list
+
+   Reviewers can also permanently delete the items in the deleted list by going to:
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/purge
+
+   ![17](./screenshots/17.png)
+
+   Now go to：
+
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/deleted
+
+   ![18](./screenshots/18.png)
+
+   Everything in the deleted list are permanently removed
+
+
+
+## Future Steps
+
+* I will add more parameters to UPDATE operation
+* If reviewers can use tools to send different requests, I will change to more proper API
+* I will build a simple UI to allow user interaction

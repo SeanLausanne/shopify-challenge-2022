@@ -6,6 +6,7 @@ app = express();
 app.use(express.json());
 app.set('view engine', 'pug');
 
+// connect to MongoDB
 mongoose.connect('mongodb+srv://shopify:shopify@shopify-challenge.f91pc.mongodb.net/test')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.log('Cannot connect', err));
