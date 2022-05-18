@@ -59,7 +59,7 @@ node index.js
 
    Reviewers can add the items by go to:
 
-   ![items](./screenshots/items.png | width=50)
+   <img src="./screenshots/items.png" height="700">
 
    Go to:
 
