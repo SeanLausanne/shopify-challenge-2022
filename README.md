@@ -6,7 +6,7 @@ The optional feature I chose is:
 
 * When deleting, allow deletion comments and undeletion
 
-The application can be found on Replit: https://replit.com/@SeanLausanne/shopify-challenge-2022
+The application can be found on Replit: https://replit.com/@SeanLausanne/shopify-challenge-2022#index.js
 
 ## Author
 
@@ -43,8 +43,6 @@ node index.js
 
    ![1](./screenshots/1.png)
 
-!(/Users/xiaoling/Desktop/untitled folder 2/Screen Shot 2022-05-18 at 17.55.52.png)
-
 2. View all inventory items:
 
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/all
@@ -57,11 +55,9 @@ node index.js
 
    In real world, user should send a HTTP POST request with the item being the request body. Because reviewers may not be able to use Postman, I pre-coded 4 item objects in items.json. 
 
-   Reviewers can add the items by go to:
-
    <img src="./screenshots/items.png" height="700">
 
-   Go to:
+   Reviewers can add the items by go to:
 
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/add/1
 

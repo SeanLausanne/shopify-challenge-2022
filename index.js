@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const inventory = require('./routes/inventory');
+const home = require('./routes/home');
 
 app = express();
 app.use(express.json());
@@ -11,6 +12,7 @@ mongoose.connect('mongodb+srv://shopify:shopify@shopify-challenge.f91pc.mongodb.
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.log('Cannot connect', err));
 
+app.use('/', home);
 app.use('/inventory', inventory);
 
 const port = 5000;
