@@ -59,9 +59,9 @@ node index.js
 
    Reviewers can add the items by go to:
 
-   <img src="./screenshots/items.png" alt="items" style="zoom:50%;" />
+   ![items](./screenshots/items.png | width=50)
 
-   
+   Go to:
 
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/add/1
 
