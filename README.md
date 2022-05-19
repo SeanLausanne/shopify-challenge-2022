@@ -119,7 +119,7 @@ node index.js
 
    Another example:
 
-   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/iphone&comments=recall
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/iphone?comments=recall
 
    ![12](./screenshots/12.png)
 
