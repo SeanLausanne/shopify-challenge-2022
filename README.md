@@ -97,7 +97,7 @@ node index.js
 
    Go to:
 
-   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/update/iphone?quantity=300
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/update/iphone?quantity=500
 
    ![9](./screenshots/9.png)
 
