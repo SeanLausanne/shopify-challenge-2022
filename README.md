@@ -28,7 +28,7 @@ Since this a backend challenge, I focused on the backend code. I didn't build an
 
 Please go to https://replit.com/@SeanLausanne/shopify-challenge-2022#index.js
 
-Hit Run button or type the following in Shell:
+**The app should be running already.** It is running if the button says "Stop". If it is not running already, hit "Run" button or type the following in Shell:
 
 ```
 npm install
