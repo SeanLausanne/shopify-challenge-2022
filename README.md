@@ -113,7 +113,7 @@ node index.js
 
    Reviewers can go to /inventory/delete/itemName to delete an item. Again in real world, this should be a HTTP DELETE request. To allow reviewers to test in browser, I can only put the deletion comments in the url as query parameter. For example:
 
-   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/camera&comments=soldout
+   https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/camera?comments=soldout
 
    ![11](./screenshots/11.png)
 
