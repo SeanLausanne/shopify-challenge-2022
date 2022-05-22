@@ -155,7 +155,9 @@ node index.js
 
    ![16](./screenshots/16.png)
 
-   iphone has been removed from the deleted list
+   iphone has been removed from the deleted list   
+
+8. Permanetly delete
 
    Reviewers can also permanently delete the items in the deleted list by going to:
 
@@ -164,11 +166,11 @@ node index.js
    ![17](./screenshots/17.png)
 
    Now go to：
-
+   
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/deleted
-
+   
    ![18](./screenshots/18.png)
-
+   
    Everything in the deleted list are permanently removed
 
 
