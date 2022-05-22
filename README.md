@@ -53,7 +53,7 @@ node index.js
 
 3. Add item:
 
-   In real world, user should send a HTTP POST request with the item being the request body. Because reviewers may not be able to use Postman, I pre-coded 4 item objects in items.json. 
+   **In real world, user should send a HTTP POST request with the item being the request body.** Because reviewers may not be able to use Postman, I pre-coded 4 item objects in items.json. 
 
    <img src="./screenshots/items.png" height="700">
 
@@ -93,7 +93,7 @@ node index.js
 
 5. Update an item:
 
-   Reviewers can update an item by going to /inventory/itemName?quantity=500. Again in real world, this should be a HTTP PUT request with the request body being the updated item. To allow reviewers to test in browser, I can only put the updated value in the url as query parameter. Only "quantity" is supported now. Given more time, I will improve it in the future.
+   Reviewers can update an item by going to /inventory/itemName?quantity=500. **Again in real world, this should be a HTTP PUT request with the request body being the updated item**. To allow reviewers to test in browser, I can only put the updated value in the url as query parameter. Only "quantity" is supported now. Given more time, I will improve it in the future.
 
    Go to:
 
@@ -111,7 +111,7 @@ node index.js
 
 6. Delete an item:
 
-   Reviewers can go to /inventory/delete/itemName to delete an item. Again in real world, this should be a HTTP DELETE request. To allow reviewers to test in browser, I can only put the deletion comments in the url as query parameter. For example:
+   Reviewers can go to /inventory/delete/itemName to delete an item. **Again in real world, this should be a HTTP DELETE request**. To allow reviewers to test in browser, I can only put the deletion comments in the url as query parameter. For example:
 
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/delete/camera?comments=soldout
 
@@ -147,7 +147,7 @@ node index.js
 
    https://shopify-challenge-2022.seanlausanne.repl.co/inventory/view/all
 
-   camera has been restored![15](./screenshots/15.png)
+   iphone has been restored![15](./screenshots/15.png)
 
    Go to the deleted list
 
@@ -155,7 +155,7 @@ node index.js
 
    ![16](./screenshots/16.png)
 
-   Camera has been removed from the deleted list
+   iphone has been removed from the deleted list
 
    Reviewers can also permanently delete the items in the deleted list by going to:
 
